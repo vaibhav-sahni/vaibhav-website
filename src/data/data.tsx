@@ -7,17 +7,18 @@ import {
   MapIcon,
   SparklesIcon,
 } from '@heroicons/react/24/outline';
+import React from 'react';
+import Typewriter from 'typewriter-effect';
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/bgimg.jpg';
 import projectimage from '../images/portfolio/black.jpg';
-import movieratingimage from '../images/portfolio/movierating.jpg';
 import cifar10image from '../images/portfolio/cifar10.jpg';
+import movieratingimage from '../images/portfolio/movierating.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
-import Typewriter from 'typewriter-effect';
 import {
   About,
   ContactSection,
@@ -60,27 +61,30 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name:(
-  <div>
-  <p>I'm</p> 
-
-  <Typewriter options ={{
-    strings: ['Vaibhav Sahni', 'A Web Developer','A Computer Scientist', 'A Pianist', 'A Golfer'],
-    autoStart: true,
-    loop: true,
-    //wrapperClassName: 'text-orange-500',
-    cursorClassName: 'text-orange-500'
-  }} />
-  </div>
-),
+  name: (
+    <div>
+      <p>I'm</p>
+      
+      <Typewriter
+        options={{
+          strings: ['Vaibhav Sahni', 'A Web Developer', 'A Computer Scientist', 'A Pianist', 'A Golfer'],
+          autoStart: true,
+          loop: true,
+          //wrapperClassName: 'text-orange-500',
+          cursorClassName: 'text-orange-500',
+        }}
+      />
+    </div>
+  ),
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a student at <strong className="text-stone-100">IIITD</strong>, currently studying <strong className="text-stone-100">Computer Science Engineering.</strong>
+        I'm a student at <strong className="text-stone-100">IIITD</strong>, currently studying{' '}
+        <strong className="text-stone-100">Computer Science Engineering.</strong>
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time, you can catch me playing the <strong className="text-stone-100">piano</strong>,
-        or hitting the <strong className="text-stone-100">Golfing range</strong>
+        In my free time, you can catch me playing the <strong className="text-stone-100">piano</strong>, or hitting the{' '}
+        <strong className="text-stone-100">Golfing range</strong>
       </p>
     </>
   ),
@@ -203,7 +207,8 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Movie Review System',
-    description: 'DBMS based project to watch movie trailers and leave movie reviews using PyQt5, mysql and data scraping',
+    description:
+      'DBMS based project to watch movie trailers and leave movie reviews using PyQt5, mysql and data scraping',
     url: 'https://github.com/vaibhav-sahni/Movie-review-system',
     image: movieratingimage,
   },
