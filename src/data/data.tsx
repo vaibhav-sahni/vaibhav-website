@@ -71,7 +71,8 @@ export const heroData: Hero = {
           autoStart: true,
           loop: true,
           //wrapperClassName: 'text-orange-500',
-          cursorClassName: 'text-orange-500',
+          cursorClassName: 'text-orange-500 animate-blink',
+        
         }}
       />
     </div>

@@ -3,6 +3,9 @@ module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx,css,scss}'],
   // darkMode: 'media', // or 'media' or 'class'
   theme: {
+    animation: {
+      blink: 'blink 0.5s step-end infinite',
+    },
     extend: {
       colors: {
         yellow: '#efc603',
@@ -13,7 +16,7 @@ module.exports = {
           '30%, 70%': {width: '100%'},
         },
         blink: {
-          '0%': {
+          '50%': {
             opacity: 0,
           },
         },
