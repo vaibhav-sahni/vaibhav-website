@@ -15,8 +15,7 @@ const Resume: FC = memo(() => {
             <TimelineItem item={item} key={`${item.title}-${index}`} />
           ))}
         </ResumeSection>
-        
-        
+
         <ResumeSection title="Skills">
           <p className="pb-8"> Some of my skills, including what I have learnt and am learning in college.</p>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">

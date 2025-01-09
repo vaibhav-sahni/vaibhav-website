@@ -2,7 +2,7 @@
   "name": "vaibhav-website",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://vaibhav-sahni.github.io/vaibhav-site",
+  "homepage": "https://vaibhav-sahni.github.io/vaibhav-website",
   "scripts": {
     "build": "yarn compile && yarn next build",
     "clean": "rm -rf build-tsc .next",
