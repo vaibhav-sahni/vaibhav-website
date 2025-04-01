@@ -16,6 +16,7 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/bgimg.jpg';
 import projectimage from '../images/portfolio/black.jpg';
 import cifar10image from '../images/portfolio/cifar10.jpg';
+import riscvimage from '../images/portfolio/riscv.png'
 import movieratingimage from '../images/portfolio/movierating.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
@@ -220,10 +221,10 @@ export const portfolioItems: PortfolioItem[] = [
     image: cifar10image,
   },
   {
-    title: 'Coming soon',
-    description: 'Making a new project...',
+    title: 'RISC-V Assembler and Simulator',
+    description: 'Created an assembler and simulator for the RISCV ISA',
     url: 'https://github.com/vaibhav-sahni',
-    image: projectimage,
+    image: riscvimage,
   },
   {
     title: 'Coming soon',
