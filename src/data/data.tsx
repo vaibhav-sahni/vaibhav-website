@@ -122,7 +122,8 @@ export const aboutData: About = {
 };
 
 /**
- * Skills section
+ * Skills section: TODO: REMOVE LEVELS FORM THIS. RATHER JUST KEEP IT A SIMPLE LISTING WHERE I CAN VIEW ALL MY SKILLS. THE BAR IS 
+ * SOMEHOW INDICATING I AM NOT GOOD AT CERTAIN THINGS WHICH IS NOT THE FEELING I WANT TO PUT ACROSS.
  */
 export const skills: SkillGroup[] = [
   {
@@ -204,7 +205,7 @@ export const skills: SkillGroup[] = [
 ];
 
 /**
- * Portfolio section
+ * Portfolio section: Quite elegant if i must say, can be seamlessly increased or decreased at will.
  */
 export const portfolioItems: PortfolioItem[] = [
   {
@@ -259,7 +260,8 @@ export const portfolioItems: PortfolioItem[] = [
 ];
 
 /**
- * Resume section -- TODO: Standardize resume contact format or offer MDX
+ * Resume section -- TODO: Maybe implemement a timeline type scale where I can see the order of my employments/associations in chronological order
+ * Lookup on bootstrap, or, additionally can implement accordion as a table type.
  */
 export const education: TimelineItem[] = [
   {
