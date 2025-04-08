@@ -110,7 +110,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I'm a freshman at IIITD, studying Computer Science Engineering. I enjoy living life to the fullest and trying new things.`,
+  description: `I'm a freshman at IIITD, studying Computer Science Engineering. I enjoy living life   to the fullest and trying new things.`,
   aboutItems: [
     {label: 'Location', text: 'Gurugram, Haryana', Icon: MapIcon},
     {label: 'Age', text: '18', Icon: CalendarIcon},
