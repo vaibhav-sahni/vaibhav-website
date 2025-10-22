@@ -19,15 +19,15 @@ const About: FC = memo(() => {
         )}
         <div className={classNames('col-span-1 flex flex-col gap-y-6', {'md:col-span-3': !!profileImageSrc})}>
           <div className="flex flex-col gap-y-2">
-            <h2 className="text-2xl font-bold text-white">About me</h2>
-            <p className="prose prose-sm text-gray-300 sm:prose-base">{description}</p>
+            <h2 className="text-2xl font-bold text-white dark:text-neutral-100">About me</h2>
+            <p className="prose prose-sm text-gray-300 dark:text-gray-300 sm:prose-base">{description}</p>
           </div>
           <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             {aboutItems.map(({label, text, Icon}, idx) => (
               <li className="col-span-1 flex  items-start gap-x-2" key={idx}>
-                {Icon && <Icon className="h-5 w-5 text-white" />}
-                <span className="text-sm font-bold text-white">{label}:</span>
-                <span className=" text-sm text-gray-300">{text}</span>
+                {Icon && <Icon className="h-5 w-5 text-white dark:text-neutral-100" />}
+                <span className="text-sm font-bold text-white dark:text-neutral-100">{label}:</span>
+                <span className=" text-sm text-gray-300 dark:text-gray-300">{text}</span>
               </li>
             ))}
           </ul>

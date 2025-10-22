@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-undef
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx,css,scss}'],
-  // darkMode: 'media', // or 'media' or 'class'
+  darkMode: 'class',
   theme: {
     animation: {
       blink: 'blink 0.5s step-end infinite',

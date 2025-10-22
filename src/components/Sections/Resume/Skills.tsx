@@ -247,7 +247,7 @@ export const SkillBadge: FC<{skill: SkillType}> = memo(({skill}) => {
           ref={popoverRef}
           onMouseEnter={() => cancelClose()}
           onMouseLeave={() => scheduleClose()}
-          className="absolute z-50 left-1/2 transform -translate-x-1/2 top-full mt-2 w-72 max-w-xs bg-white text-sm text-neutral-900 rounded-md shadow-lg ring-1 ring-black/5">
+          className="absolute z-50 left-1/2 transform -translate-x-1/2 top-full mt-2 w-72 max-w-xs bg-white dark:bg-neutral-900 text-sm text-neutral-900 dark:text-neutral-100 rounded-md shadow-lg ring-1 ring-black/5">
           <div className="p-3">
             <div className="font-semibold mb-1">{name}</div>
             {loading ? (

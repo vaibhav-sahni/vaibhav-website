@@ -31,13 +31,13 @@ const Hero: FC = memo(() => {
               {actions.map(({href, text, primary, Icon}) => (
                 <a
                   className={classNames(
-                    'flex gap-x-2 rounded-full border-2 bg-none px-4 py-2 text-sm font-medium text-white ring-offset-gray-700/80 hover:bg-gray-700/80 focus:outline-none focus:ring-2 focus:ring-offset-2 sm:text-base',
+                    'flex gap-x-2 rounded-full border-2 bg-none px-4 py-2 text-sm font-medium text-white dark:text-neutral-100 ring-offset-gray-700/80 hover:bg-gray-700/80 dark:hover:bg-neutral-800/60 focus:outline-none focus:ring-2 focus:ring-offset-2 sm:text-base',
                     primary ? 'border-orange-500 ring-orange-500' : 'border-white ring-white',
                   )}
                   href={href}
                   key={text}>
                   {text}
-                  {Icon && <Icon className="h-5 w-5 text-white sm:h-6 sm:w-6" />}
+                  {Icon && <Icon className="h-5 w-5 text-white dark:text-neutral-100 sm:h-6 sm:w-6" />}
                 </a>
               ))}
             </div>
@@ -45,7 +45,7 @@ const Hero: FC = memo(() => {
         </div>
         <div className="absolute inset-x-0 bottom-6 flex justify-center">
           <a
-            className="rounded-full bg-white p-1 ring-white ring-offset-2 ring-offset-gray-700/80 focus:outline-none focus:ring-2 sm:p-2"
+            className="rounded-full bg-white dark:bg-neutral-800 p-1 dark:ring-offset-neutral-900 ring-white ring-offset-2 ring-offset-gray-700/80 focus:outline-none focus:ring-2 sm:p-2"
             href={`/#${SectionId.About}`}>
             <ChevronDownIcon className="h-5 w-5 bg-transparent sm:h-6 sm:w-6" />
           </a>
