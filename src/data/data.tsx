@@ -65,7 +65,6 @@ export const heroData: Hero = {
   name: (
     <div>
       <p>I'm</p>
-      
       <Typewriter
         options={{
           strings: ['Vaibhav Sahni', 'A Web Developer', 'A Computer Scientist', 'A Pianist', 'A Golfer'],
@@ -73,7 +72,6 @@ export const heroData: Hero = {
           loop: true,
           //wrapperClassName: 'text-orange-500',
           cursorClassName: 'text-orange-500 animate-blink',
-        
         }}
       />
     </div>
@@ -127,79 +125,33 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
-    skills: [
-      {
-        name: 'English',
-        level: 10,
-      },
-      {
-        name: 'Hindi',
-        level: 10,
-      },
-      {
-        name: 'Sanskrit',
-        level: 3,
-      },
-    ],
-  },
-  {
     name: 'Programming Languages',
     skills: [
-      {
-        name: 'Python',
-        level: 10,
-      },
-      {
-        name: 'Java',
-        level: 8,
-      },
-      {
-        name: 'C++',
-        level: 7,
-      },
-      {
-        name: 'Javascript',
-        level: 5,
-      },
+      {name: 'Python'},
+      {name: 'Java'},
+      {name: 'C++'},
+      {name: 'RISC-V'},
+      {name: 'Javascript'},
     ],
   },
   {
     name: 'Web development',
     skills: [
-      {
-        name: 'React',
-        level: 7,
-      },
-      {
-        name: 'Node.js',
-        level: 7,
-      },
-      {
-        name: 'FastAPI',
-        level: 7,
-      },
-      {
-        name: 'Django',
-        level: 5,
-      },
+      {name: 'React'},
+      {name: 'Node.js'},
+      {name: 'FastAPI'},
+      {name: 'Django'},
+      {name: 'HTML'},
+      {name: 'SCSS'},
+      {name: 'Figma'},
     ],
   },
   {
     name: 'Data Science',
     skills: [
-      {
-        name: 'SQL',
-        level: 10,
-      },
-      {
-        name: 'Pandas',
-        level: 7,
-      },
-      {
-        name: 'Numpy',
-        level: 6,
-      },
+      {name: 'SQL'},
+      {name: 'Pandas'},
+      {name: 'Numpy'},
     ],
   },
 ];
