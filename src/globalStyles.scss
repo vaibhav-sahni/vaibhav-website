@@ -52,14 +52,11 @@ body {
 
 /* Additional dark-mode fallbacks for common utility colors used in components */
 .dark .bg-white { background-color: #0b1220 !important; }
-.dark .bg-neutral-900\/50 { background-color: rgba(8, 10, 15, 0.5) !important; }
 .dark .text-neutral-900 { color: #d1d5db !important; }
 .dark .text-neutral-700 { color: #cbd5e1 !important; }
 .dark .text-neutral-500 { color: #9ca3af !important; }
 .dark .text-neutral-100 { color: #f3f4f6 !important; }
 .dark .bg-stone-800 { background-color: #0f1724 !important; }
-.dark .bg-neutral-800\/30 { background-color: rgba(15, 23, 36, 0.3) !important; }
-.dark .bg-neutral-700\/40 { background-color: rgba(22, 27, 38, 0.4) !important; }
 
 td,
 th {
